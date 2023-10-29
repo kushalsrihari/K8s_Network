@@ -5,6 +5,9 @@ metadata:
   labels:
     app: guestbook
 spec:
+  type: LoadBalancer
+  externalIPs:
+  - 35.209.77.168
   ports:
   - port: 80
   selector:
